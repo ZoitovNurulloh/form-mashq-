@@ -12,17 +12,22 @@
     <h2 class="login-box__heading">Login</h2>
     <form class="form">
       <div class="user-box">
-        <input type="text" id="username" name="username" class="user-box__input" required>
+        <input type="text" id="username" name="username" class="user-box__input user-box__input--js" required>
         <label for="username" class="user-box__label">Username</label>
+        <span id="err"></span>
       </div>
 
       <div class="user-box">
         <input type="password" id="password" name="password" class="user-box__input" required>
         <label for="password" class="user-box__label">Password</label>
+        <span id="err2"></span>
       </div>
 
       <button type="submit" class="btn">Submit</button>
     </form>
   </div>
+
+
+  <script src="/script.js"></script>
 </body>
 </html>

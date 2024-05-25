@@ -43,6 +43,14 @@ body {
   outline: none;
 }
 
+.user-box__input--err {
+  border-bottom: 1px solid red;
+}
+
+.user-box__input--valid {
+  border-bottom: 1px solid green;
+}
+
 .user-box__label {
   position: absolute;
   color: #fff;
@@ -51,6 +59,14 @@ body {
   padding: 10px 0;
   pointer-events: none;
   transition: 0.5s ease;
+}
+
+.user-box span{
+  position: absolute;
+  color: red;
+  left: 0;
+  top: 65%;
+  font-size: 12px;
 }
 
 .user-box__input:focus ~ .user-box__label {
